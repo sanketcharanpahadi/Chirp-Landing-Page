@@ -7,28 +7,54 @@
     <title>Document</title>
     <link rel="stylesheet" href="style.css" />
   </head>
-  <body class="mx-5 my-12 font-['Inter']">
-    <header class="header mb-16 bg-[#faf8f2]">
+  <body class="font-['Inter']">
+    <header class="header px-5 pt-10 mb-16 bg-[#faf8f2] sm:px-8">
       <nav class="nav-bar flex items-center justify-between">
-        <h3 class="text-[#3080f5] text-xl font-black italic">Chirp.</h3>
+        <h3 class="text-[#3080f5] text-xl font-black italic sm:text-lg">
+          Chirp.
+        </h3>
 
-        <img src="Assets/Hamburger Menu.svg" alt="Hamburger" class="" />
+        <img
+          src="Assets/Hamburger Menu.svg"
+          alt="Hamburger"
+          class="sm:hidden"
+        />
 
-        <ul class="nav-links hidden">
+        <ul class="nav-links hidden sm:flex items-center gap-6 text-[#787675]">
           <li><a href="#">Home</a></li>
           <li><a href="#">Pricing</a></li>
           <li><a href="#">FAQ</a></li>
+          <li
+            class="flex rounded-md bg-[#1da2f1] text-white font-semibold gap-2 text-sm p-4 items-center"
+          >
+            <img src="Assets/Twitter.svg" class="w-5" alt="" />
+            Sign in with Twitter
+          </li>
         </ul>
       </nav>
 
-      <div class="main-header mt-10 flex flex-col">
-        <img src="Assets/Hero Image (Desktop View).png" alt="" class="mb-8" />
+      <div class="main-header mt-10 flex flex-col sm:mt-8">
+        <img
+          src="Assets/Hero Image (Desktop View).png"
+          alt=""
+          class="mb-8 sm:hidden"
+        />
+
+        <img
+          src="Assets/Hero Image (Tablet View).png"
+          class="hidden sm:block mb-8"
+          alt=""
+        />
 
         <div class="about-header">
-          <h1 class="primary-heading text-[33px] text-black font-black mb-2">
+          <h1
+            class="primary-heading text-[33px] text-black font-black mb-2 sm:text-5xl"
+          >
             Twitter analytics taken to a whole new level.
           </h1>
-          <p class="main-para text-[#787675] text-lg mb-4">
+          <p
+            class="main-para text-[#787675] text-lg mb-4 sm:text-[15px] sm:mb-3"
+          >
             Chrip is a suite of Twitter analytics that will help you better
             understand your audience, which tweets they like, and most
             importantly, when they are the most active on Twitter.
@@ -36,34 +62,68 @@
 
           <a
             href="#"
-            class="sign-in text-center bg-[#1da2f1] flex items-center justify-center text-white gap-4 py-4 font-black text-base rounded-md mb-4"
+            class="sign-in text-center bg-[#1da2f1] flex items-center justify-center text-white gap-4 py-4 font-black text-base rounded-md mb-4 sm:inline-flex sm:px-6 sm:py-4 sm:text-sm sm:font-semibold sm:gap-2"
           >
-            <img src="Assets/Twitter.svg" alt="" />
+            <img src="Assets/Twitter.svg" class="w-5" alt="" />
             Sign in with Twitter
           </a>
 
           <a
             href="#"
-            class="learn block text-center text-[#5592a9] font-black text-lg mb-8"
+            class="learn block text-center text-[#5592a9] font-black text-lg mb-8 sm:inline sm:text-sm sm:ml-3"
             >Learn more &rarr;
           </a>
 
-          <div class="people">
+          <div class="people sm:mt-2">
             <div class="people-img flex mb-4">
-              <img src="Assets/userAvatar09.svg" alt="" />
-              <img src="Assets/userAvatar08.svg" alt="" class="ml-[-1.4rem]" />
-              <img src="Assets/userAvatar07.svg" alt="" class="ml-[-1.4rem]" />
-              <img src="Assets/userAvatar06.svg" alt="" class="ml-[-1.4rem]" />
-              <img src="Assets/userAvatar05.svg" alt="" class="ml-[-1.4rem]" />
-              <img src="Assets/userAvatar04.svg" alt="" class="ml-[-1.4rem]" />
-              <img src="Assets/userAvatar03.svg" alt="" class="ml-[-1.4rem]" />
-              <img src="Assets/userAvatar02.svg" alt="" class="ml-[-1.4rem]" />
-              <img src="Assets/userAvatar01.svg" alt="" class="ml-[-1.4rem]" />
+              <img src="Assets/userAvatar09.svg" class="sm:w-10" alt="" />
+              <img
+                src="Assets/userAvatar08.svg"
+                alt=""
+                class="ml-[-1.4rem] sm:w-10"
+              />
+              <img
+                src="Assets/userAvatar07.svg"
+                alt=""
+                class="ml-[-1.4rem] sm:w-10"
+              />
+              <img
+                src="Assets/userAvatar06.svg"
+                alt=""
+                class="ml-[-1.4rem] sm:w-10"
+              />
+              <img
+                src="Assets/userAvatar05.svg"
+                alt=""
+                class="ml-[-1.4rem] sm:w-10"
+              />
+              <img
+                src="Assets/userAvatar04.svg"
+                alt=""
+                class="ml-[-1.4rem] sm:w-10"
+              />
+              <img
+                src="Assets/userAvatar03.svg"
+                alt=""
+                class="ml-[-1.4rem] sm:w-10"
+              />
+              <img
+                src="Assets/userAvatar02.svg"
+                alt=""
+                class="ml-[-1.4rem] sm:w-10"
+              />
+              <img
+                src="Assets/userAvatar01.svg"
+                alt=""
+                class="ml-[-1.4rem] sm:w-10"
+              />
             </div>
 
-            <p class="people-count text-[#787675] mb-10">
-              Joint <span class="text-[#5592a9] font-black">195</span> others
-              who have analyzed their followers and scheduled
+            <p
+              class="people-count sm:w-2/3 sm:text-sm text-[#787675] mb-10 sm:mb-8"
+            >
+              Join <span class="text-[#5592a9] font-black">195</span> others who
+              have analyzed their followers and scheduled
               <span class="text-[#5592a9] font-black">1342</span> tweets!
             </p>
           </div>
@@ -72,41 +132,46 @@
     </header>
 
     <main class="bg-white">
-      <section class="main">
-        <h2 class="main-heading text-4xl font-black mb-8">
+      <section class="main px-5 sm:px-8">
+        <h2
+          class="main-heading text-4xl font-black mb-8 sm:w-2/3 sm:text-3xl sm:mb-6"
+        >
           Features that help you Tweet smarter.
         </h2>
 
-        <div class="features mb-20">
+        <div class="features mb-20 sm:mb-16">
           <div
-            class="feature border-[1px] border-[#c4c4c4] p-6 rounded-md mb-8"
+            class="feature border-[1px] border-[#c4c4c4] p-6 rounded-md mb-8 sm:p-5 sm:mb-5"
           >
-            <span class="text-4xl mb-4 block">📈</span>
-            <h3 class="font-black mb-4">Analytics</h3>
-            <p class="about-feature text-[#787675] text-[17px]">
-              We constantly monitor your audience as it grows -- so you can
-              Tweet when your followers are most likely to be online and ready
-              to engage with your content.
+            <span class="text-4xl mb-4 sm:mb-2 sm:text-3xl block">📈</span>
+            <h3 class="font-black mb-4 sm:text-base sm:mb-2">Analytics</h3>
+            <p class="about-feature text-[#787675] text-[17px] sm:text-[15px]">
+              We constantly monitor your audience as it grows — so you can Tweet
+              when your followers are most likely to be online and ready to
+              engage with your content.
             </p>
           </div>
 
           <div
-            class="feature border-[1px] border-[#c4c4c4] p-6 rounded-md mb-8"
+            class="feature border-[1px] border-[#c4c4c4] p-6 rounded-md mb-8 sm:p-5 sm:mb-5"
           >
-            <span class="text-4xl mb-4 block">🤓</span>
-            <h3 class="font-black mb-4">Smart Analyzer</h3>
-            <p class="about-feature text-[#787675] text-[17px]">
+            <span class="text-4xl mb-4 block sm:text-3xl">🤓</span>
+            <h3 class="font-black mb-4 sm:text-base sm:mb-2">Smart Analyzer</h3>
+            <p class="about-feature text-[#787675] text-[17px] sm:text-[15px]">
               Chirp automatically recognizes your folllower's most active times
-              sends you notifications if you're missing out on an oppurtunity.
+              and automatically sends you notifications if you're missing out on
+              an oppurtunity.
             </p>
           </div>
 
           <div
-            class="feature border-[1px] border-[#c4c4c4] p-6 rounded-md mb-8"
+            class="feature border-[1px] border-[#c4c4c4] p-6 rounded-md mb-8 sm:p-5 sm:mb-5"
           >
-            <span class="text-4xl mb-4 block">🗞</span>
-            <h3 class="font-black mb-4">Scheduled Your Tweets</h3>
-            <p class="about-feature text-[#787675] text-[17px]">
+            <span class="text-4xl mb-4 block sm:text-3xl">🗞</span>
+            <h3 class="font-black mb-4 sm:text-base sm:mb-2">
+              Scheduled Your Tweets
+            </h3>
+            <p class="about-feature text-[#787675] text-[17px] sm:text-[15px]">
               Quality tweets drive tons of engagement. With Chirp, you can write
               tweets in an advance and schedule them when your audience is most
               likely to read.
@@ -114,11 +179,11 @@
           </div>
 
           <div
-            class="feature border-[1px] border-[#c4c4c4] p-6 rounded-md mb-8"
+            class="feature border-[1px] border-[#c4c4c4] p-6 rounded-md mb-8 sm:p-5"
           >
-            <span class="text-4xl mb-4 block">☀</span>
-            <h3 class="font-black mb-4">Dark Mode</h3>
-            <p class="about-feature text-[#787675] text-[17px]">
+            <span class="text-4xl mb-4 sm:text-3xl block">☀</span>
+            <h3 class="font-black mb-4 sm:text-base sm:mb-2">Dark Mode</h3>
+            <p class="about-feature text-[#787675] text-[17px] sm:text-[15px]">
               Friendly on the eyes, no mattterwhat time you write your Tweets.
               All colors are chosen to make sure your eyes are at ease at all
               times.
@@ -127,69 +192,89 @@
         </div>
       </section>
 
-      <section class="customers bg-[#d7f5f5] py-12 px-6">
-        <h2 class="customer-heading font-black text-4xl mb-12">
+      <section class="customers bg-[#d7f5f5] py-14 px-5 mb-20 sm:px-8 sm:pr-0">
+        <h2
+          class="customer-heading font-black text-4xl mb-12 sm:text-3xl sm:mb-8"
+        >
           What our customers say
         </h2>
 
-        <div class="customer-profile flex flex-col gap-8">
-          <div class="customer bg-white rounded-md p-6">
-            <div class="customer-info flex items-center mb-4">
-              <img src="Assets/userAvatar01.svg" alt="" class="w-16 mr-4" />
-              <div class="customer-name mr-24">
-                <div class="name text-base font-black">Sara May</div>
-                <div class="text-[#787675] text-sm">@sara_may</div>
+        <div
+          class="customer-profile flex flex-col gap-8 sm:flex-row overflow-hidden sm:gap-5"
+        >
+          <div
+            class="customer bg-white rounded-md p-6 basis-64 min-w-[52%] max-h-60"
+          >
+            <div class="customer-info flex items-center mb-4 sm:mb-2">
+              <img
+                src="Assets/userAvatar01.svg"
+                alt=""
+                class="w-16 mr-2 sm:w-[52px]"
+              />
+              <div class="customer-name mr-36 sm:mr-[108px]">
+                <div class="name text-[17px] font-black sm:text-[15px]">
+                  Sara May
+                </div>
+                <div class="text-[#787675] text-sm sm:text-xs">@sara_may</div>
               </div>
 
-              <img src="Assets/Twitter (Blue).svg" alt="" />
+              <img src="Assets/Twitter (Blue).svg" class="sm:w-5" alt="" />
             </div>
 
-            <p class="tweet text-[#787675] mb-4">
+            <p class="tweet text-[#787675] mb-4 text-lg sm:text-[15px]">
               I just tried out @chirp and it's amazing, love all the analytics I
               can see.
             </p>
 
             <div class="tweet-figures flex justify-between">
               <div class="like flex gap-1 items-center">
-                <img src="Assets/Like.svg" alt="" />
-                <span class="likes text-[#787675] text-lg">2</span>
+                <img src="Assets/Like.svg" class="sm:w-5" alt="" />
+                <span class="likes text-[#787675] text-lg sm:text-sm">2</span>
               </div>
 
-              <span class="date text-[#787675]">March 2, 2021</span>
+              <span class="date text-[#787675] sm:text-sm">March 2, 2021</span>
             </div>
           </div>
 
-          <div class="customer bg-white rounded-md p-6">
-            <div class="customer-info flex items-center mb-4">
-              <img src="Assets/userAvatar02.svg" alt="" class="w-16 mr-4" />
-              <div class="customer-name mr-24">
-                <div class="name text-base font-black">Jack Scott</div>
-                <div class="text-[#787675] text-sm">@jackscott_</div>
+          <div
+            class="customer bg-white rounded-md p-6 sm:max-h-[330px] sm:min-w-[49.4%]"
+          >
+            <div class="customer-info flex items-center mb-4 sm:mb-2">
+              <img
+                src="Assets/userAvatar02.svg"
+                alt=""
+                class="w-16 mr-2 sm:w-[52px]"
+              />
+              <div class="customer-name mr-20 sm:mr-20">
+                <div class="name text-base font-black sm:text-[15px]">
+                  Jack Scott
+                </div>
+                <div class="text-[#787675] text-sm sm:text-xs">@jackscott_</div>
               </div>
 
-              <img src="Assets/Twitter (Blue).svg" alt="" />
+              <img src="Assets/Twitter (Blue).svg" class="sm:w-5" alt="" />
             </div>
 
-            <p class="tweet text-[#787675] mb-4">
+            <p class="tweet text-[#787675] mb-4 text-lg sm:text-[15px]">
               I initially started using Chirp to support the co-founder as I
-              personally knew himj, but after having tried it out for a few of
+              personally knew him, but after having tried it out for a few
               weeks, I can genuinely say this changed my Twitter game.
             </p>
 
             <div class="tweet-figures flex justify-between">
               <div class="like flex items-center gap-1">
-                <img src="Assets/Like.svg" alt="" />
-                <span class="likes text-[#787675] text-lg">32</span>
+                <img src="Assets/Like.svg" class="sm:w-5" alt="" />
+                <span class="likes text-[#787675] text-lg sm:text-sm">32</span>
               </div>
 
-              <span class="date text-[#787675]">March 2, 2021</span>
+              <span class="date text-[#787675] sm:text-sm">March 2, 2021</span>
             </div>
           </div>
 
           <div class="customer bg-white rounded-md p-6">
             <div class="customer-info flex items-center mb-4">
-              <img src="Assets/userAvatar03.svg" alt="" class="w-16 mr-4" />
-              <div class="customer-name mr-24">
+              <img src="Assets/userAvatar03.svg" alt="" class="w-16 mr-2" />
+              <div class="customer-name mr-[124px]">
                 <div class="name text-base font-black">Jessica May</div>
                 <div class="text-[#787675] text-sm">@jmay98</div>
               </div>
@@ -214,52 +299,75 @@
         </div>
       </section>
 
-      <section class="pricing mb-16 ">
-        <h2 class="pricing-heading text-center text-4xl font-black mb-4">One simple price plan.</h2>
-        <p class="text-center mb-12 text-[#787675] text-lg">
+      <section class="pricing mb-20 px-5 sm:px-24 sm:mb-16">
+        <h2
+          class="pricing-heading text-center text-4xl font-black mb-4 sm:text-3xl sm:mb-2"
+        >
+          One simple price plan.
+        </h2>
+        <p class="text-center mb-14 text-[#787675] text-lg sm:text-sm sm:mb-12">
           Start growing your Twitter account by analyzing your follower's
           patterns.
         </p>
 
-        <div class="price-container border-[1px] border-orange-500 rounded-lg p-8">
-          <h3 class="text-[#787675] text-2xl mb-2">Monthly</h3>
-          <div class="price text-[#787675] text-2xl mb-6"><span class="text-6xl font-black text-black">$9</span>/mo</div>
+        <div
+          class="price-container border-[1px] border-orange-500 rounded-lg p-8 bg-[#faf8f2] sm:p-9 sm:pb-7"
+        >
+          <h3 class="text-[#787675] text-2xl mb-2 sm:text-xl">Monthly</h3>
+          <div class="price text-[#787675] text-2xl mb-6 sm:text-xl sm:mb-5">
+            <span class="text-6xl font-black text-black sm:text-5xl">$9</span
+            >/mo
+          </div>
           <span class="line-br block w-full h-[1px] bg-[#787675] mb-4"></span>
-
 
           <div class="features mb-4">
             <div class="feature flex items-start gap-4 mb-4">
-              <img src="Assets/Checkmark.svg" alt="" />
-              <p class="text-[#787675]">Unlimited* scheduled tweets and threads.</p>
+              <img src="Assets/Checkmark.svg" alt="" class="sm:w-5" />
+              <p class="text-[#787675] sm:text-sm">
+                Unlimited* scheduled tweets and threads.
+              </p>
             </div>
 
             <div class="feature flex items-start gap-4 mb-4">
-              <img src="Assets/Checkmark.svg" alt="" />
-              <p class="text-[#787675]">Schedule up to 3 weeks in advance.</p>
+              <img src="Assets/Checkmark.svg" class="sm:w-5" alt="" />
+              <p class="text-[#787675] sm:text-sm">
+                Schedule up to 3 weeks in advance.
+              </p>
             </div>
 
             <div class="feature flex items-start gap-4">
-              <img src="Assets/Checkmark.svg" alt="" />
-              <p class="text-[#787675]">Real-time audience analytics tracking up to 5k followers.</p>
+              <img src="Assets/Checkmark.svg" class="sm:w-5" alt="" />
+              <p class="text-[#787675] sm:text-sm">
+                Real-time audience analytics tracking up to 5k followers.
+              </p>
             </div>
           </div>
 
-          <span class="break-li block w-full h-[1px] bg-[#787675] mb-6"></span>
+          <span
+            class="break-li block w-full h-[1px] bg-[#787675] mb-6 sm:mb-3"
+          ></span>
 
-          <a href="#" class="text-center bg-[#1da2f1] flex items-center justify-center text-white gap-4 py-4 font-black text-base rounded-md">
-            <img src="Assets/Twitter.svg" alt="" />
+          <a
+            href="#"
+            class="text-center bg-[#1da2f1] flex items-center justify-center text-white gap-4 py-4 font-black text-base rounded-md w-[113%] -ml-[19px] sm:w-full sm:ml-0 sm:text-sm sm:font-semibold"
+          >
+            <img src="Assets/Twitter.svg" class="sm:w-5" alt="" />
             Start Trial with Twitter
           </a>
         </div>
       </section>
     </main>
 
-    <footer class="footer bg-[#d7f5f5]">
-      <h3 class="italic text-[#1da2f1] font-black text-lg mb-4">Chirp.</h3>
-      <div class="footer-links flex gap-8">
-        <img src="Assets/Twitter (Black).svg" alt="" />
-        <span class="text-lg">Privacy Policy</span>
-        <span class="text-lg">Terms of use</span>
+    <footer
+      class="footer bg-[#d7f5f5] px-6 py-6 sm:flex justify-between items-start sm:py-6"
+    >
+      <h3 class="italic text-[#1da2f1] font-black text-lg mb-4 sm:mb-0">
+        Chirp.
+      </h3>
+      <div class="footer-links flex gap-6 sm:items-center">
+        <img src="Assets/Twitter (Black).svg" alt="" class="sm:w-5" />
+        <span class="text-xl sm:text-base">Privacy Policy</span>
+        <span class="text-xl sm:text-base">Terms of use</span>
       </div>
     </footer>
   </body>
