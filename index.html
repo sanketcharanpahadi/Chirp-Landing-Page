@@ -197,85 +197,127 @@
       </section>
 
       <section
-        class="customers bg-[#d7f5f5] py-14 px-5 mb-20 sm:px-8 sm:pr-0 md:px-32 md:pb-32"
+        class="customers bg-[#d7f5f5] py-12 px-5 mb-20 sm:px-8 sm:py-14 sm:pb-16 sm:pr-0 md:px-44 md:py-16 md:pb-20"
       >
-        <h2 class="customers-heading">What our customers say</h2>
+        <h2
+          class="customers-heading font-black text-3xl mb-12 sm:mb-8 sm:text-3xl"
+        >
+          What our customers say
+        </h2>
 
-        <div class="testimonials">
-          <div class="customer">
-            <div class="customer-twittter">
-              <img src="Assets/userAvatar01.svg" alt="" />
+        <div class="testimonials flex flex-col gap-6 sm:flex-row justify-center">
+          <div
+            class="customer bg-white rounded-md py-5 px-6 pb-6 relative sm:self-start md:max-w-xs"
+          >
+            <div class="customer-twittter flex items-center gap-3 mb-4">
+              <img src="Assets/userAvatar01.svg" class="w-14 sm:w-12" alt="" />
 
               <div class="twitter-name">
-                <span>Sara May</span>
-                <span>@sara_may</span>
+                <div class="text-black font-black text-base sm:text-sm">
+                  Sara May
+                </div>
+                <div class="text-[#787675] text-xs">@sara_may</div>
               </div>
 
-              <img src="Assets/Twitter (Blue).svg" alt="" />
+              <img
+                src="Assets/Twitter (Blue).svg"
+                class="absolute right-6 w-[22px] sm:w-5"
+                alt=""
+              />
             </div>
 
-            <p class="testimonial">
+            <p
+              class="testimonial text-[#787675] text-base mb-4 sm:text-[15px] sm:p-1 sm:leading-relaxed md:p-0 md:text-base"
+            >
               I just tried out @chirp and it's amazing, love all the analytics I
               can see.
             </p>
 
-            <div class="likes">
-              <img src="Assets/Like.svg" alt="" />
-              <span class="likes-count">2</span>
+            <div class="likes flex items-center gap-1">
+              <img src="Assets/Like.svg" class="w-[21px] sm:w-5 md:w-[21px]" alt="" />
+              <span class="likes-count text-base text-[#787675] sm:text-sm md:text-base"
+                >2</span
+              >
             </div>
 
-            <span class="date">March, 2021</span>
+            <span
+              class="date absolute bottom-6 right-6 text-[#787675] sm:text-sm md:text-base"
+              >March 2, 2021</span
+            >
           </div>
 
-          <div class="customer">
-            <div class="customer-twittter">
-              <img src="Assets/userAvatar09.svg" alt="" />
+          <div
+            class="customer bg-white rounded-md py-5 px-6 pb-6 relative sm:max-h-max sm:max-w-[277px] sm:pr-0 md:px-6 md:max-w-xs"
+          >
+            <div class="customer-twittter flex items-center gap-3 mb-4">
+              <img src="Assets/userAvatar09.svg" class="w-14 sm:w-12" alt="" />
 
               <div class="twitter-name">
-                <span>Jack Scott</span>
-                <span>@jackscott_</span>
+                <div class="text-black font-black text-base sm:text-[14px] md:text-base">
+                  Jack Scott
+                </div>
+                <div class="text-[#787675] text-xs">@jackscott_</div>
               </div>
 
-              <img src="Assets/Twitter (Blue).svg" alt="" />
+              <img
+                src="Assets/Twitter (Blue).svg"
+                class="absolute right-6 w-[22px] sm:-right-1 sm:w-5 md:right-6 md:w-[22]"
+                alt=""
+              />
             </div>
 
-            <p class="testimonial">
-              I initiallly started using Chirp to support the co-founder as I
+            <p
+              class="testimonial text-[#787675] mb-4 sm:text-[15px] sm:leading-relaxed md:text-base"
+            >
+              I initially started using Chirp to support the co-founder as I
               personally knew him, but after having tried it out for a few
               weeks, I can genuinely say this changed my Twitter game.
             </p>
 
-            <div class="likes">
-              <img src="Assets/Like.svg" alt="" />
-              <span class="likes-count">32</span>
+            <div class="likes flex items-center gap-1">
+              <img src="Assets/Like.svg" class="w-[21px] sm:w-5 md:w-[21px]" alt="" />
+              <span class="likes-count text-base text-[#787675] sm:text-sm md:text-base"
+                >32</span
+              >
             </div>
 
-            <span class="date">March, 2021</span>
+            <span
+              class="date absolute bottom-6 right-6 text-[#787675] sm:-right-1 sm:text-sm md:right-6 md:text-base"
+              >March, 2021</span
+            >
           </div>
 
-          <div class="customer">
-            <div class="customer-twittter">
-              <img src="Assets/userAvatar06.svg" alt="" />
+          <div
+            class="customer bg-white rounded-md py-5 px-6 pb-6 relative sm:hidden md:block md:self-start md:max-w-xs"
+          >
+            <div class="customer-twittter flex items-center gap-3 mb-4">
+              <img src="Assets/userAvatar06.svg" class="w-14" alt="" />
 
               <div class="twitter-name">
-                <span>Jessica May</span>
-                <span>@jmay98</span>
+                <div class="text-black font-black text-base">Jessica May</div>
+                <div class="text-[#787675] text-xs">@jmay98</div>
               </div>
 
-              <img src="Assets/Twitter (Blue).svg" alt="" />
+              <img
+                src="Assets/Twitter (Blue).svg"
+                class="absolute right-6 w-[22px]"
+                alt=""
+              />
             </div>
 
-            <p class="testimonial">
+            <p class="testimonial text-[#787675] text-base mb-4">
               Absolutely love everything about Chirp, from the design to how
               everything works smoothly.
             </p>
 
-            <div class="likes">
-              <img src="Assets/Like.svg" alt="" />
-              <span class="likes-count">221</span>
+            <div class="likes flex items-center gap-1">
+              <img src="Assets/Like.svg" class="w-[21px]" alt="" />
+              <span class="likes-count text-base text-[#787675]">221</span>
             </div>
 
-            <span class="date">March, 2021</span>
+            <span class="date absolute bottom-6 right-6 text-[#787675]"
+              >March, 2021</span
+            >
           </div>
         </div>
       </section>
